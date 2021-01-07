@@ -78,6 +78,8 @@ sources:
     - '%%users.localappdata%%\Chromium\User Data\*\Cache\*'
     - '%%users.localappdata%%\Chromium\User Data\*\Media Cache\*'
     - '%%users.localappdata%%\Chromium\User Data\*\GPUCache\*'
+    - '%%users.localappdata%%\Microsoft\Edge\User Data\*\Cache\*'
+    - '%%users.localappdata%%\Microsoft\Edge\User Data\*\GPUCache\*'
     separator: '\'
   supported_os: [Windows]
 - type: FILE
@@ -154,6 +156,8 @@ sources:
     - '%%users.localappdata%%\Google\Chrome SxS\User Data\*\Cookies-journal'
     - '%%users.localappdata%%\Google\Chrome\User Data\*\Cookies'
     - '%%users.localappdata%%\Google\Chrome\User Data\*\Cookies-journal'
+    - '%%users.localappdata%%\Microsoft\Edge\User Data\*\Cookies'
+    - '%%users.localappdata%%\Microsoft\Edge\User Data\*\Cookies-journal'
     separator: '\'
   supported_os: [Windows]
 - type: FILE
@@ -220,6 +224,7 @@ sources:
     - '%%users.localappdata%%\Google\Chrome\User Data\*\Extensions\**10'
     - '%%users.localappdata%%\Chromium\User Data\*\Extensions\**10'
     - '%%users.localappdata%%\Google\Chrome SxS\User Data\*\Extensions\**10'
+    - '%%users.localappdata%%\Microsoft\Edge\User Data\*\Extensions\**10'
     separator: '\'
   supported_os: [Windows]
 - type: FILE
@@ -270,6 +275,7 @@ sources:
       - '%%users.localappdata%%\Chromium\User Data\*\File System\**5'
       - '%%users.localappdata%%\Google\Chrome SxS\User Data\*\File System\**5'
       - '%%users.localappdata%%\Google\Chrome\User Data\*\File System\**5'
+      - '%%users.localappdata%%\Microsoft\Edge\User Data\*\File System\**5'
     separator: '\'
   supported_os: [Windows]
 - type: FILE
@@ -313,6 +319,8 @@ sources:
     - '%%users.localappdata%%\Google\Chrome\User Data\*\Archived History-journal'
     - '%%users.localappdata%%\Google\Chrome\User Data\*\History'
     - '%%users.localappdata%%\Google\Chrome\User Data\*\History-journal'
+    - '%%users.localappdata%%\Microsoft\Edge\User Data\*\History'
+    - '%%users.localappdata%%\Microsoft\Edge\User Data\*\History-journal'
     separator: '\'
   supported_os: [Windows]
 - type: FILE
@@ -378,6 +386,7 @@ sources:
       - '%%users.localappdata%%\Chromium\User Data\*\IndexedDB\**5'
       - '%%users.localappdata%%\Google\Chrome SxS\User Data\*\IndexedDB\**5'
       - '%%users.localappdata%%\Google\Chrome\User Data\*\IndexedDB\**5'
+      - '%%users.localappdata%%\Microsoft\Edge\User Data\*\IndexedDB\**5'
     separator: '\'
   supported_os: [Windows]
 - type: FILE
@@ -419,6 +428,7 @@ sources:
       - '%%users.localappdata%%\Chromium\User Data\*\Local Storage\**'
       - '%%users.localappdata%%\Google\Chrome SxS\User Data\*\Local Storage\**'
       - '%%users.localappdata%%\Google\Chrome\User Data\*\Local Storage\**'
+      - '%%users.localappdata%%\Microsoft\Edge\User Data\*\Local Storage\**'
     separator: '\'
   supported_os: [Windows]
 - type: FILE
@@ -449,6 +459,7 @@ sources:
     - '%%users.localappdata%%\Google\Chrome\User Data\*\Preferences'
     - '%%users.localappdata%%\Google\Chrome SxS\User Data\*\Preferences'
     - '%%users.localappdata%%\Chromium\User Data\*\Preferences'
+    - '%%users.localappdata%%\Microsoft\Edge\User Data\*\Preferences'
     separator: '\'
   supported_os: [Windows]
 - type: FILE
@@ -484,6 +495,7 @@ sources:
       - '%%users.localappdata%%\Chromium\User Data\*\Session Storage\*'
       - '%%users.localappdata%%\Google\Chrome SxS\User Data\*\Session Storage\*'
       - '%%users.localappdata%%\Google\Chrome\User Data\*\Session Storage\*'
+      - '%%users.localappdata%%\Microsoft\Edge\User Data\*\Session Storage\*'
     separator: '\'
   supported_os: [Windows]
 - type: FILE
